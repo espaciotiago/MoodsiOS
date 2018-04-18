@@ -7,13 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		118D39B6B3B1151FC8C74346 /* Pods_Moods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A90B0AEFC8319C11F9EC5B1B /* Pods_Moods.framework */; };
+		5985380D02D1A759AFF050DA /* Pods_MoodsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2663729F80CEE2EE1BE2CF /* Pods_MoodsUITests.framework */; };
+		DF0FB0A2BDC687ACBBF2C02A /* Pods_MoodsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A9FF2585DBCFEEF84842D4 /* Pods_MoodsTests.framework */; };
+		F10705B42006A03F00347201 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10705B32006A03F00347201 /* NetworkHelper.swift */; };
 		F13E5DBB1FFD479800ADB9A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E5DBA1FFD479800ADB9A5 /* AppDelegate.swift */; };
-		F13E5DBD1FFD479800ADB9A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E5DBC1FFD479800ADB9A5 /* ViewController.swift */; };
+		F13E5DBD1FFD479800ADB9A5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E5DBC1FFD479800ADB9A5 /* LoginViewController.swift */; };
 		F13E5DC01FFD479800ADB9A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13E5DBE1FFD479800ADB9A5 /* Main.storyboard */; };
 		F13E5DC21FFD479800ADB9A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13E5DC11FFD479800ADB9A5 /* Assets.xcassets */; };
 		F13E5DC51FFD479800ADB9A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13E5DC31FFD479800ADB9A5 /* LaunchScreen.storyboard */; };
 		F13E5DD01FFD479900ADB9A5 /* MoodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E5DCF1FFD479900ADB9A5 /* MoodsTests.swift */; };
 		F13E5DDB1FFD479900ADB9A5 /* MoodsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E5DDA1FFD479900ADB9A5 /* MoodsUITests.swift */; };
+		F13E5DEA1FFD4C2200ADB9A5 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E5DE91FFD4C2200ADB9A5 /* LoadingViewController.swift */; };
+		F13E5DEC1FFD4C2F00ADB9A5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E5DEB1FFD4C2F00ADB9A5 /* MainViewController.swift */; };
+		F13E5DEE1FFD501200ADB9A5 /* colors in Resources */ = {isa = PBXBuildFile; fileRef = F13E5DED1FFD501200ADB9A5 /* colors */; };
+		F13E5DF01FFD839800ADB9A5 /* MoodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E5DEF1FFD839800ADB9A5 /* MoodsViewController.swift */; };
+		F13E5DF21FFE7D2300ADB9A5 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E5DF11FFE7D2300ADB9A5 /* EventViewController.swift */; };
+		F13E5DF61FFEA40400ADB9A5 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E5DF51FFEA40400ADB9A5 /* SuccessViewController.swift */; };
+		F13E5DF81FFEA4CF00ADB9A5 /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E5DF71FFEA4CF00ADB9A5 /* ErrorViewController.swift */; };
+		F13E5DFA1FFEC97200ADB9A5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E5DF91FFEC97200ADB9A5 /* Constants.swift */; };
+		F13E5DFC1FFED60700ADB9A5 /* PasswordRecoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E5DFB1FFED60700ADB9A5 /* PasswordRecoveryViewController.swift */; };
+		F13E5DFE1FFED61900ADB9A5 /* FormsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E5DFD1FFED61900ADB9A5 /* FormsViewController.swift */; };
+		F13E5E001FFED62500ADB9A5 /* CampaignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E5DFF1FFED62500ADB9A5 /* CampaignViewController.swift */; };
+		F13E5E021FFED63600ADB9A5 /* TeamDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E5E011FFED63600ADB9A5 /* TeamDayViewController.swift */; };
+		F13E5E041FFED64200ADB9A5 /* TeamWeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E5E031FFED64200ADB9A5 /* TeamWeekViewController.swift */; };
+		F13E5E061FFED64F00ADB9A5 /* TeamMonthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E5E051FFED64F00ADB9A5 /* TeamMonthViewController.swift */; };
+		F13E5E081FFED66000ADB9A5 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E5E071FFED66000ADB9A5 /* TimelineViewController.swift */; };
+		F13E5E0A1FFED6FE00ADB9A5 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E5E091FFED6FE00ADB9A5 /* QuestionsViewController.swift */; };
+		F13E5E0C20000C8400ADB9A5 /* UICardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E5E0B20000C8400ADB9A5 /* UICardView.swift */; };
+		F183A3062002CA9A00384B71 /* LineChartFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F183A3052002CA9A00384B71 /* LineChartFormatter.swift */; };
+		F183A3082003042600384B71 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = F183A3072003042600384B71 /* Event.swift */; };
+		F183A30A200307AA00384B71 /* FormQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F183A309200307AA00384B71 /* FormQuestion.swift */; };
+		F183A30C200308E400384B71 /* FormOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = F183A30B200308E400384B71 /* FormOption.swift */; };
+		F183A30E20030B0C00384B71 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = F183A30D20030B0C00384B71 /* Form.swift */; };
+		F183A3102003C16500384B71 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = F183A30F2003C16500384B71 /* Mood.swift */; };
+		F19D713D2003E08E001C4046 /* ResponseMood.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19D713C2003E08D001C4046 /* ResponseMood.swift */; };
+		F19D713F2003E7F0001C4046 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19D713E2003E7F0001C4046 /* EventTableViewCell.swift */; };
+		F19D714520046616001C4046 /* FormTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19D714420046616001C4046 /* FormTableViewCell.swift */; };
+		F19D714720048CAA001C4046 /* QuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19D714620048CAA001C4046 /* QuestionTableViewCell.swift */; };
+		F1D79D0420293209005ADE8A /* MoodEventResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D79D0320293209005ADE8A /* MoodEventResponse.swift */; };
+		F1D79D06202934AA005ADE8A /* MoodEventContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D79D05202934AA005ADE8A /* MoodEventContainer.swift */; };
+		F1D79D0A202936F7005ADE8A /* BarsEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D79D09202936F7005ADE8A /* BarsEventsViewController.swift */; };
+		F1D79D0C202938AA005ADE8A /* MoodEventResponseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D79D0B202938AA005ADE8A /* MoodEventResponseTableViewCell.swift */; };
+		F1F5B38120070EF0000659AE /* Moods.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F1F5B37F20070EF0000659AE /* Moods.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +70,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08C68CD00E85CA93DE463F94 /* Pods-Moods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moods.release.xcconfig"; path = "Pods/Target Support Files/Pods-Moods/Pods-Moods.release.xcconfig"; sourceTree = "<group>"; };
+		1C722DE873443FD8302AB182 /* Pods-MoodsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoodsUITests/Pods-MoodsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		915870753CF6D8DF055CEE6C /* Pods-MoodsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoodsTests/Pods-MoodsTests.release.xcconfig"; sourceTree = "<group>"; };
+		A90B0AEFC8319C11F9EC5B1B /* Pods_Moods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4C3196FDFEF5A5C6A438998 /* Pods-MoodsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoodsTests/Pods-MoodsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7A9FF2585DBCFEEF84842D4 /* Pods_MoodsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoodsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED560A79B4709BEF1339C73E /* Pods-Moods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moods.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Moods/Pods-Moods.debug.xcconfig"; sourceTree = "<group>"; };
+		F10705B32006A03F00347201 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		F13E5DB71FFD479800ADB9A5 /* Moods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13E5DBA1FFD479800ADB9A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F13E5DBC1FFD479800ADB9A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F13E5DBC1FFD479800ADB9A5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F13E5DBF1FFD479800ADB9A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F13E5DC11FFD479800ADB9A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F13E5DC41FFD479800ADB9A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +91,40 @@
 		F13E5DD61FFD479900ADB9A5 /* MoodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13E5DDA1FFD479900ADB9A5 /* MoodsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodsUITests.swift; sourceTree = "<group>"; };
 		F13E5DDC1FFD479900ADB9A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13E5DE91FFD4C2200ADB9A5 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		F13E5DEB1FFD4C2F00ADB9A5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F13E5DED1FFD501200ADB9A5 /* colors */ = {isa = PBXFileReference; lastKnownFileType = text; path = colors; sourceTree = "<group>"; };
+		F13E5DEF1FFD839800ADB9A5 /* MoodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodsViewController.swift; sourceTree = "<group>"; };
+		F13E5DF11FFE7D2300ADB9A5 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		F13E5DF51FFEA40400ADB9A5 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		F13E5DF71FFEA4CF00ADB9A5 /* ErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
+		F13E5DF91FFEC97200ADB9A5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F13E5DFB1FFED60700ADB9A5 /* PasswordRecoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordRecoveryViewController.swift; sourceTree = "<group>"; };
+		F13E5DFD1FFED61900ADB9A5 /* FormsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormsViewController.swift; sourceTree = "<group>"; };
+		F13E5DFF1FFED62500ADB9A5 /* CampaignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignViewController.swift; sourceTree = "<group>"; };
+		F13E5E011FFED63600ADB9A5 /* TeamDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDayViewController.swift; sourceTree = "<group>"; };
+		F13E5E031FFED64200ADB9A5 /* TeamWeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamWeekViewController.swift; sourceTree = "<group>"; };
+		F13E5E051FFED64F00ADB9A5 /* TeamMonthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMonthViewController.swift; sourceTree = "<group>"; };
+		F13E5E071FFED66000ADB9A5 /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		F13E5E091FFED6FE00ADB9A5 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
+		F13E5E0B20000C8400ADB9A5 /* UICardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICardView.swift; sourceTree = "<group>"; };
+		F183A3052002CA9A00384B71 /* LineChartFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartFormatter.swift; sourceTree = "<group>"; };
+		F183A3072003042600384B71 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		F183A309200307AA00384B71 /* FormQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormQuestion.swift; sourceTree = "<group>"; };
+		F183A30B200308E400384B71 /* FormOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormOption.swift; sourceTree = "<group>"; };
+		F183A30D20030B0C00384B71 /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
+		F183A30F2003C16500384B71 /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		F19D713C2003E08D001C4046 /* ResponseMood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseMood.swift; sourceTree = "<group>"; };
+		F19D713E2003E7F0001C4046 /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		F19D714420046616001C4046 /* FormTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTableViewCell.swift; sourceTree = "<group>"; };
+		F19D714620048CAA001C4046 /* QuestionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTableViewCell.swift; sourceTree = "<group>"; };
+		F1D79D0320293209005ADE8A /* MoodEventResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodEventResponse.swift; sourceTree = "<group>"; };
+		F1D79D05202934AA005ADE8A /* MoodEventContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodEventContainer.swift; sourceTree = "<group>"; };
+		F1D79D09202936F7005ADE8A /* BarsEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarsEventsViewController.swift; sourceTree = "<group>"; };
+		F1D79D0B202938AA005ADE8A /* MoodEventResponseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodEventResponseTableViewCell.swift; sourceTree = "<group>"; };
+		F1F5B38020070EF0000659AE /* Moods.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Moods.xcdatamodel; sourceTree = "<group>"; };
+		F3FF2C005818F4406C7E16C9 /* Pods-MoodsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoodsUITests/Pods-MoodsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FD2663729F80CEE2EE1BE2CF /* Pods_MoodsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoodsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				118D39B6B3B1151FC8C74346 /* Pods_Moods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF0FB0A2BDC687ACBBF2C02A /* Pods_MoodsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +148,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5985380D02D1A759AFF050DA /* Pods_MoodsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48307C38CF9A72F968F54859 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A90B0AEFC8319C11F9EC5B1B /* Pods_Moods.framework */,
+				D7A9FF2585DBCFEEF84842D4 /* Pods_MoodsTests.framework */,
+				FD2663729F80CEE2EE1BE2CF /* Pods_MoodsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CBB4B91353A892F70BA2753 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED560A79B4709BEF1339C73E /* Pods-Moods.debug.xcconfig */,
+				08C68CD00E85CA93DE463F94 /* Pods-Moods.release.xcconfig */,
+				C4C3196FDFEF5A5C6A438998 /* Pods-MoodsTests.debug.xcconfig */,
+				915870753CF6D8DF055CEE6C /* Pods-MoodsTests.release.xcconfig */,
+				1C722DE873443FD8302AB182 /* Pods-MoodsUITests.debug.xcconfig */,
+				F3FF2C005818F4406C7E16C9 /* Pods-MoodsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F13E5DAE1FFD479800ADB9A5 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +185,8 @@
 				F13E5DCE1FFD479900ADB9A5 /* MoodsTests */,
 				F13E5DD91FFD479900ADB9A5 /* MoodsUITests */,
 				F13E5DB81FFD479800ADB9A5 /* Products */,
+				9CBB4B91353A892F70BA2753 /* Pods */,
+				48307C38CF9A72F968F54859 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +203,16 @@
 		F13E5DB91FFD479800ADB9A5 /* Moods */ = {
 			isa = PBXGroup;
 			children = (
+				F13E5DF41FFE9FC500ADB9A5 /* Controller */,
+				F13E5DF31FFE9FBB00ADB9A5 /* View */,
+				F13E5DE81FFD4C0A00ADB9A5 /* Model */,
 				F13E5DBA1FFD479800ADB9A5 /* AppDelegate.swift */,
-				F13E5DBC1FFD479800ADB9A5 /* ViewController.swift */,
 				F13E5DBE1FFD479800ADB9A5 /* Main.storyboard */,
 				F13E5DC11FFD479800ADB9A5 /* Assets.xcassets */,
 				F13E5DC31FFD479800ADB9A5 /* LaunchScreen.storyboard */,
 				F13E5DC61FFD479800ADB9A5 /* Info.plist */,
+				F13E5DED1FFD501200ADB9A5 /* colors */,
+				F1F5B37F20070EF0000659AE /* Moods.xcdatamodeld */,
 			);
 			path = Moods;
 			sourceTree = "<group>";
@@ -125,6 +235,59 @@
 			path = MoodsUITests;
 			sourceTree = "<group>";
 		};
+		F13E5DE81FFD4C0A00ADB9A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F13E5DF91FFEC97200ADB9A5 /* Constants.swift */,
+				F183A3072003042600384B71 /* Event.swift */,
+				F183A309200307AA00384B71 /* FormQuestion.swift */,
+				F183A30B200308E400384B71 /* FormOption.swift */,
+				F183A30D20030B0C00384B71 /* Form.swift */,
+				F183A30F2003C16500384B71 /* Mood.swift */,
+				F19D713C2003E08D001C4046 /* ResponseMood.swift */,
+				F10705B32006A03F00347201 /* NetworkHelper.swift */,
+				F1D79D0320293209005ADE8A /* MoodEventResponse.swift */,
+				F1D79D05202934AA005ADE8A /* MoodEventContainer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F13E5DF31FFE9FBB00ADB9A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F13E5E0B20000C8400ADB9A5 /* UICardView.swift */,
+				F183A3052002CA9A00384B71 /* LineChartFormatter.swift */,
+				F19D713E2003E7F0001C4046 /* EventTableViewCell.swift */,
+				F19D714420046616001C4046 /* FormTableViewCell.swift */,
+				F19D714620048CAA001C4046 /* QuestionTableViewCell.swift */,
+				F1D79D0B202938AA005ADE8A /* MoodEventResponseTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F13E5DF41FFE9FC500ADB9A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F13E5DBC1FFD479800ADB9A5 /* LoginViewController.swift */,
+				F13E5DE91FFD4C2200ADB9A5 /* LoadingViewController.swift */,
+				F13E5DEB1FFD4C2F00ADB9A5 /* MainViewController.swift */,
+				F13E5DEF1FFD839800ADB9A5 /* MoodsViewController.swift */,
+				F13E5DF11FFE7D2300ADB9A5 /* EventViewController.swift */,
+				F13E5DF51FFEA40400ADB9A5 /* SuccessViewController.swift */,
+				F13E5DF71FFEA4CF00ADB9A5 /* ErrorViewController.swift */,
+				F13E5DFB1FFED60700ADB9A5 /* PasswordRecoveryViewController.swift */,
+				F13E5DFD1FFED61900ADB9A5 /* FormsViewController.swift */,
+				F13E5DFF1FFED62500ADB9A5 /* CampaignViewController.swift */,
+				F13E5E011FFED63600ADB9A5 /* TeamDayViewController.swift */,
+				F13E5E031FFED64200ADB9A5 /* TeamWeekViewController.swift */,
+				F13E5E051FFED64F00ADB9A5 /* TeamMonthViewController.swift */,
+				F13E5E071FFED66000ADB9A5 /* TimelineViewController.swift */,
+				F13E5E091FFED6FE00ADB9A5 /* QuestionsViewController.swift */,
+				F1D79D09202936F7005ADE8A /* BarsEventsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +295,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F13E5DDF1FFD479900ADB9A5 /* Build configuration list for PBXNativeTarget "Moods" */;
 			buildPhases = (
+				B938BAF730D8E972B9104A0B /* [CP] Check Pods Manifest.lock */,
 				F13E5DB31FFD479800ADB9A5 /* Sources */,
 				F13E5DB41FFD479800ADB9A5 /* Frameworks */,
 				F13E5DB51FFD479800ADB9A5 /* Resources */,
+				5E2CDA79B72E1CDB2AD5E2EC /* [CP] Embed Pods Frameworks */,
+				7F03D6983AC65D2CE7728446 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +315,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F13E5DE21FFD479900ADB9A5 /* Build configuration list for PBXNativeTarget "MoodsTests" */;
 			buildPhases = (
+				C31600BFCEC26CF306A24916 /* [CP] Check Pods Manifest.lock */,
 				F13E5DC71FFD479900ADB9A5 /* Sources */,
 				F13E5DC81FFD479900ADB9A5 /* Frameworks */,
 				F13E5DC91FFD479900ADB9A5 /* Resources */,
+				B07C1E6F659FD637A8AAD5D8 /* [CP] Embed Pods Frameworks */,
+				E0BB145104C53F62DB047349 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +336,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F13E5DE51FFD479900ADB9A5 /* Build configuration list for PBXNativeTarget "MoodsUITests" */;
 			buildPhases = (
+				CFE276ED814C00E9C060E8E1 /* [CP] Check Pods Manifest.lock */,
 				F13E5DD21FFD479900ADB9A5 /* Sources */,
 				F13E5DD31FFD479900ADB9A5 /* Frameworks */,
 				F13E5DD41FFD479900ADB9A5 /* Resources */,
+				944FE7437FF5F3E1BBAC2071 /* [CP] Embed Pods Frameworks */,
+				1B2AC09B0836104A3C11F6C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +404,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F13E5DEE1FFD501200ADB9A5 /* colors in Resources */,
 				F13E5DC51FFD479800ADB9A5 /* LaunchScreen.storyboard in Resources */,
 				F13E5DC21FFD479800ADB9A5 /* Assets.xcassets in Resources */,
 				F13E5DC01FFD479800ADB9A5 /* Main.storyboard in Resources */,
@@ -254,13 +427,197 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B2AC09B0836104A3C11F6C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoodsUITests/Pods-MoodsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E2CDA79B72E1CDB2AD5E2EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Moods/Pods-Moods-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Moods/Pods-Moods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F03D6983AC65D2CE7728446 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Moods/Pods-Moods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		944FE7437FF5F3E1BBAC2071 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoodsUITests/Pods-MoodsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B07C1E6F659FD637A8AAD5D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoodsTests/Pods-MoodsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B938BAF730D8E972B9104A0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Moods-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C31600BFCEC26CF306A24916 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoodsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFE276ED814C00E9C060E8E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoodsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0BB145104C53F62DB047349 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoodsTests/Pods-MoodsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F13E5DB31FFD479800ADB9A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F13E5DBD1FFD479800ADB9A5 /* ViewController.swift in Sources */,
+				F13E5E021FFED63600ADB9A5 /* TeamDayViewController.swift in Sources */,
+				F13E5DBD1FFD479800ADB9A5 /* LoginViewController.swift in Sources */,
+				F13E5DF61FFEA40400ADB9A5 /* SuccessViewController.swift in Sources */,
+				F13E5DF01FFD839800ADB9A5 /* MoodsViewController.swift in Sources */,
+				F19D713F2003E7F0001C4046 /* EventTableViewCell.swift in Sources */,
+				F183A3102003C16500384B71 /* Mood.swift in Sources */,
+				F183A3082003042600384B71 /* Event.swift in Sources */,
+				F1D79D06202934AA005ADE8A /* MoodEventContainer.swift in Sources */,
 				F13E5DBB1FFD479800ADB9A5 /* AppDelegate.swift in Sources */,
+				F183A30C200308E400384B71 /* FormOption.swift in Sources */,
+				F1D79D0C202938AA005ADE8A /* MoodEventResponseTableViewCell.swift in Sources */,
+				F13E5DFE1FFED61900ADB9A5 /* FormsViewController.swift in Sources */,
+				F1F5B38120070EF0000659AE /* Moods.xcdatamodeld in Sources */,
+				F19D714520046616001C4046 /* FormTableViewCell.swift in Sources */,
+				F1D79D0A202936F7005ADE8A /* BarsEventsViewController.swift in Sources */,
+				F183A30A200307AA00384B71 /* FormQuestion.swift in Sources */,
+				F13E5E0C20000C8400ADB9A5 /* UICardView.swift in Sources */,
+				F19D714720048CAA001C4046 /* QuestionTableViewCell.swift in Sources */,
+				F10705B42006A03F00347201 /* NetworkHelper.swift in Sources */,
+				F13E5DEA1FFD4C2200ADB9A5 /* LoadingViewController.swift in Sources */,
+				F13E5E001FFED62500ADB9A5 /* CampaignViewController.swift in Sources */,
+				F19D713D2003E08E001C4046 /* ResponseMood.swift in Sources */,
+				F13E5DF81FFEA4CF00ADB9A5 /* ErrorViewController.swift in Sources */,
+				F13E5E041FFED64200ADB9A5 /* TeamWeekViewController.swift in Sources */,
+				F183A30E20030B0C00384B71 /* Form.swift in Sources */,
+				F13E5E061FFED64F00ADB9A5 /* TeamMonthViewController.swift in Sources */,
+				F13E5DEC1FFD4C2F00ADB9A5 /* MainViewController.swift in Sources */,
+				F13E5DF21FFE7D2300ADB9A5 /* EventViewController.swift in Sources */,
+				F13E5E081FFED66000ADB9A5 /* TimelineViewController.swift in Sources */,
+				F13E5DFC1FFED60700ADB9A5 /* PasswordRecoveryViewController.swift in Sources */,
+				F183A3062002CA9A00384B71 /* LineChartFormatter.swift in Sources */,
+				F13E5DFA1FFEC97200ADB9A5 /* Constants.swift in Sources */,
+				F13E5E0A1FFED6FE00ADB9A5 /* QuestionsViewController.swift in Sources */,
+				F1D79D0420293209005ADE8A /* MoodEventResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +781,7 @@
 		};
 		F13E5DE01FFD479900ADB9A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED560A79B4709BEF1339C73E /* Pods-Moods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +797,7 @@
 		};
 		F13E5DE11FFD479900ADB9A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08C68CD00E85CA93DE463F94 /* Pods-Moods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +813,7 @@
 		};
 		F13E5DE31FFD479900ADB9A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4C3196FDFEF5A5C6A438998 /* Pods-MoodsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +831,7 @@
 		};
 		F13E5DE41FFD479900ADB9A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 915870753CF6D8DF055CEE6C /* Pods-MoodsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +849,7 @@
 		};
 		F13E5DE61FFD479900ADB9A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C722DE873443FD8302AB182 /* Pods-MoodsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +866,7 @@
 		};
 		F13E5DE71FFD479900ADB9A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3FF2C005818F4406C7E16C9 /* Pods-MoodsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -558,6 +921,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F1F5B37F20070EF0000659AE /* Moods.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F1F5B38020070EF0000659AE /* Moods.xcdatamodel */,
+			);
+			currentVersion = F1F5B38020070EF0000659AE /* Moods.xcdatamodel */;
+			path = Moods.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F13E5DAF1FFD479800ADB9A5 /* Project object */;
 }

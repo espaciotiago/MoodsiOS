@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="colorPrimary">#0E72F1</color>
+<color name="colorPrimaryDark">#0269ea</color>
+<color name="colorAccentDisable">#ffc97d</color>
+<color name="colorAccent">#FF9E15</color>
+<color name="colorAccentDark">#ff9703</color>
+<color name="textTitle">#939294</color>
+<color name="textBody">#979797</color>
+<color name="textLabel">#D2D3D5</color>
+<color name="white">#FFFF</color>
+<color name="dark_transparent">#26000000</color>
+<color name="menu_light">#EEFDFF</color>
+<color name="menu_dark">#91ABC2</color>
+<color name="mood_happy">#4ED987</color>
+<color name="mood_normal">#FDDB4B</color>
+<color name="mood_sad">#6FBDF4</color>
+<color name="mood_angry">#F53548</color>
+</resources>
